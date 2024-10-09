@@ -9,7 +9,7 @@ from ..models import Todos,Users
 
 from ..Router.auth import bcrypt_context
 
-SQLACHEMY_DATABASE_URL = "sqlite:///./testdb.db"
+SQLACHEMY_DATABASE_URL = "sqlite:///./TodoApp/test/testdb.db"
 engine = create_engine(
     SQLACHEMY_DATABASE_URL,
     connect_args={"check_same_thread": False},
